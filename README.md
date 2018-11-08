@@ -1,0 +1,12 @@
+# qa-training-bts-github
+Shek Marina
+
+Homework
+
+1. https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home1.kt
+
+2. https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home2base.kt
+
+3. https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home3base.kt
+
+4. https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home4base.kt
