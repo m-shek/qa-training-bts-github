@@ -1,5 +1,3 @@
-package stepic
-
 import io.kotlintest.matchers.numerics.shouldBePositive
 import io.kotlintest.matchers.types.shouldBeTypeOf
 import io.kotlintest.shouldBe
