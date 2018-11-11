@@ -12,3 +12,5 @@ Homework
 4. https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home4base.kt
 
 5. https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home5.kt
+
+6. https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home6base.kt
