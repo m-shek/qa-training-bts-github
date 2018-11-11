@@ -3,7 +3,7 @@ import io.kotlintest.matchers.types.shouldBeTypeOf
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.DescribeSpec
 
-fun transV1(a: Int, b: Int) =Pair(b, a)
+fun transV1(x: Int, y: Int) =Pair(y, x)
 
 fun transV2(x: Int,y: Int):Result = Result((x+y)-x,(x+y)-y)
 
