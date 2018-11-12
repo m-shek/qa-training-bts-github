@@ -5,6 +5,11 @@ import io.kotlintest.matchers.numerics.shouldNotBeGreaterThanOrEqual
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.DescribeSpec
 
+fun checkPolv0 (numbers: String):Boolean {
+    if (numbers==numbers.reversed()) return true
+    else return false
+}
+
 fun RandomNumber_ (from: Int, to: Int): Int {
     return (Math.random() * (to - from) + from).toInt()
 }
@@ -50,6 +55,10 @@ class Home5 : DescribeSpec({
             polidrom_number.shouldBeGreaterThanOrEqual(-2147483648)
             polidrom_number.shouldBeLessThanOrEqual(2147483647)
             input_polidrom.size.shouldBeGreaterThanOrEqual(0)
+        }
+        context ("Chek Polindrom version #1 "){
+            checkPolv0("114411").shouldBeTrue()
+            checkPolv0("-114411").shouldBeFalse()
         }
 
         context("Check Random Number") {
