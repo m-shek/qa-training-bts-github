@@ -1,6 +1,14 @@
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.DescribeSpec
 
+fun binaryv0 (c:String, d:String):String{
+    val c1=c.toInt(2)
+    val d1=d.toInt(2)
+    val sum:String =(c1.plus(d1).toString(2))
+    return sum
+}
+
+/*
 fun binarv1 (c:String, d:String) :String {
     var e:MutableList<String> = mutableListOf()
     for (i in 0..c.length-1) {
@@ -22,7 +30,7 @@ fun binarv1 (c:String, d:String) :String {
     return sr1
 }
 
-
+*/
 
 class binar:DescribeSpec ({
     describe( "Test Binar "){
@@ -34,16 +42,17 @@ class binar:DescribeSpec ({
             d.length > 0
         }
         context ("Складываем два числа "){
-            val result= binarv1(c,d)
+            val result= binaryv0(c,d)
 
             it ("Проверка выполнения функции") {
                 result.shouldBe("1010")
                 result.contains('0') ||result.contains('0')
 
-                binarv1("111","100") shouldBe ("1011")
-                binarv1("011","100") shouldBe ("111")
-                 binarv1("010","010") shouldBe ("100")
-                binarv1("001","001") shouldBe ("010")
+                binaryv0(c,d) shouldBe ("1010")
+                binaryv0("101","100") shouldBe ("1001")
+                binaryv0("001", "001") shouldBe ("10")
+                binaryv0("010","010") shouldBe("100")
+                binaryv0("111", "110") shouldBe ("1101")
             }
         }
     }
