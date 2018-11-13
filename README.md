@@ -15,4 +15,6 @@ Homework
 
 6. https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home6base.kt
 
-6.1 Нерабочая https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home6two.kt
+6.1 https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home6two.kt
+
+7.1 https://github.com/m-shek/qa-training-bts-github/blob/master/src/test/kotlin/home7.kt
